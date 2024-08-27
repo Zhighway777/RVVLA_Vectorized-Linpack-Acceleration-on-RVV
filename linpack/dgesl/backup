@@ -1,0 +1,696 @@
+daxpy(int, double, double*, int, double*, int):                       # @daxpy(int, double, double*, int, double*, int)
+        blez    a0, .LBB0_18
+        fmv.d.x fa5, zero
+        feq.d   a5, fa0, fa5
+        bnez    a5, .LBB0_18
+        li      a5, 1
+        bne     a2, a5, .LBB0_12
+        bne     a4, a5, .LBB0_12
+        csrr    a2, vlenb
+        srli    a4, a2, 2
+        li      a5, 32
+        bltu    a5, a4, .LBB0_6
+        li      a4, 32
+.LBB0_6:
+        slli    a6, a0, 3
+        bltu    a0, a4, .LBB0_9
+        add     a4, a1, a6
+        bgeu    a3, a4, .LBB0_26
+        add     a4, a3, a6
+        bgeu    a1, a4, .LBB0_26
+.LBB0_9:
+        li      a7, 0
+.LBB0_10:
+        slli    a7, a7, 3
+        add     a0, a1, a7
+        add     a3, a3, a7
+        add     a1, a1, a6
+.LBB0_11:                               # =>This Inner Loop Header: Depth=1
+        fld     fa5, 0(a3)
+        fld     fa4, 0(a0)
+        fmadd.d fa5, fa0, fa4, fa5
+        fsd     fa5, 0(a3)
+        addi    a0, a0, 8
+        addi    a3, a3, 8
+        bne     a0, a1, .LBB0_11
+        j       .LBB0_18
+------------unroll_to_rvv--------------
+.LBB0_11:  
+	vle.v   v5, (a3)  # 载入32个Pi值到向量寄存器v5
+        vle.v   v4, (a1)  # 载入32个a1值到向量寄存器v4
+        vfmadd.vv v5, v4, fa0, v5  # v5 = v4 * fa0 + v5
+        vse.v   v5, (a3)  # 将结果存储回a3
+        addi    a1, a1, 8*32  # 更新a1地址，8字节 * 32
+        addi    a3, a3, 8*32  # 更新a3地址，8字节 * 32
+        bne     a0, a1, .LBB0_11
+        j       .LBB0_18       # 跳转回循环开始
+------------unroll_end--------------   
+        
+.LBB0_12:
+        subw    a5, a5, a0 #*w只对地32位运算
+        mulw    a6, a5, a4
+        srai    a7, a4, 31	#算术右移
+        mulw    t1, a5, a2
+        srai    t3, a2, 31	
+        slli    t0, a0, 32	#逻辑左移
+        csrr    t2, vlenb	#伪指令，读取csr寄存器状态,检查向量长度
+        srli    a5, t2, 2	
+        li      t4, 32		#伪指令 加载立即数 x[rd] = imm
+        srli    t0, t0, 32
+        bltu    t4, a5, .LBB0_14
+        li      a5, 32
+
+
+.LBB0_14:
+        and     a7, a7, a6
+        and     a6, t3, t1
+        bgeu    t0, a5, .LBB0_19
+.LBB0_15:
+        li      t1, 0
+.LBB0_16:
+        slli    a7, a7, 3
+        add     a3, a3, a7  	#a3=a3+a7*8
+        slli    a4, a4, 3	
+        slli    a6, a6, 3
+        add     a1, a1, a6	#a1 = a1+a6*8
+        slli    a2, a2, 3
+        subw    a0, a0, t1
+ 
+.LBB0_17:                               # =>This Inner Loop Header: Depth=1
+        fld     fa5, 0(a3)		
+        fld     fa4, 0(a1)
+        fmadd.d fa5, fa0, fa4, fa5
+        fsd     fa5, 0(a3)
+        add     a3, a3, a4
+        addiw   a0, a0, -1
+        add     a1, a1, a2
+        bnez    a0, .LBB0_17
+ ---------------unroll_to_rvv----------------
+.LBB0_17:
+    vle.v   v5, (a3)        # 载入向量寄存器v5
+    vle.v   v4, (a1)        # 载入向量寄存器v4
+    vfmadd.vv v5, v4, fa0, v5  # v5 = v4 * fa0 + v5
+    vse.v   v5, (a3)        # 将结果存储回a3
+    add     a3, a3, a4      # 更新a3地址
+    addiw   a0, a0, -1      # 递减a0
+    add     a1, a1, a2      # 更新a1地址
+    bnez    a0, .LBB0_17    # 如果a0不为零，则跳转回循环开始
+----------------unroll_end----------------
+.LBB0_18:
+        ret
+.LBB0_19:
+        li      a5, 1			#
+        li      t1, 0			#
+        bne     a4, a5, .LBB0_16
+        bne     a2, a5, .LBB0_16
+        slli    t6, a7, 3
+        add     t6, t6, a3
+        addi    a5, a0, -1
+        slli    a5, a5, 32
+        srli    t1, a5, 29
+        slli    t3, a6, 3
+        add     t3, t3, a1
+        add     a5, t3, t1
+        addi    a5, a5, 8
+        bgeu    t6, a5, .LBB0_23
+        add     t1, t1, t6
+        addi    t1, t1, 8
+        bltu    t3, t1, .LBB0_15
+        
+        
+.LBB0_23:
+        srli    t5, t2, 3
+        slli    a5, t5, 1
+        neg     a5, a5
+        and     t1, a5, t0
+        mul     a5, t1, a4
+        add     a7, a7, a5
+        mul     a5, t1, a2
+        add     a6, a6, a5
+        srli    t2, t2, 2
+        vsetvli a5, zero, e64, m2, ta, ma
+        vfmv.v.f        v8, fa0
+        mul     t4, a4, t5
+        slli    t4, t4, 4
+        mul     t5, a2, t5
+        slli    t5, t5, 4
+        mv      a5, t1
+.LBB0_24:                               # =>This Inner Loop Header: Depth=1
+        vl2re64.v       v10, (t6)
+        vl2re64.v       v12, (t3)
+        vfmadd.vv       v12, v8, v10
+        vs2r.v  v12, (t6)
+        sub     a5, a5, t2
+        add     t6, t6, t4
+        add     t3, t3, t5
+        bnez    a5, .LBB0_24
+        bne     t1, t0, .LBB0_16
+        j       .LBB0_18
+.LBB0_26:
+        srli    a4, a2, 3	#a4=a2/8
+        slli    a5, a4, 1	#a5=a4*2
+        slli    a4, a4, 31	#a4=a4左移32位
+        sub     a4, a4, a5	#a4=a4-a5
+        and     a7, a4, a0
+        srli    t0, a2, 2
+        vsetvli a4, zero, e64, m2, ta, ma
+        vfmv.v.f        v8, fa0
+        slli    t1, a2, 1
+        mv      a4, a7
+        mv      a2, a1
+        mv      a5, a3
+.LBB0_27:                               # =>This Inner Loop Header: Depth=1
+        vl2re64.v       v10, (a5)
+        vl2re64.v       v12, (a2)
+        vfmadd.vv       v12, v8, v10
+        vs2r.v  v12, (a5)
+        add     a5, a5, t1
+        sub     a4, a4, t0
+        add     a2, a2, t1
+        bnez    a4, .LBB0_27
+        beq     a7, a0, .LBB0_18
+        j       .LBB0_10
+        
+        
+ddot(int, double*, int, double*, int):                         # @ddot(int, double*, int, double*, int)
+        blez    a0, .LBB1_5
+        li      a5, 1
+        bne     a2, a5, .LBB1_6
+        bne     a4, a5, .LBB1_6
+        csrr    t0, vlenb
+        srli    a7, t0, 2
+        bgeu    a0, a7, .LBB1_19
+        li      a6, 0
+        fmv.d.x fa0, zero
+        j       .LBB1_22
+.LBB1_5:
+        fmv.d.x fa0, zero
+        ret
+.LBB1_6:
+        subw    a5, a5, a0
+        mulw    a6, a5, a4
+        srai    t0, a4, 31
+        mulw    a7, a5, a2
+        csrr    t2, vlenb
+        srli    a5, t2, 2
+        li      t1, 32
+        srai    t3, a2, 31
+        bltu    t1, a5, .LBB1_8
+        li      a5, 32
+.LBB1_8:
+        and     t1, t0, a6
+        and     t3, t3, a7
+        fmv.d.x fa0, zero
+        bgeu    a0, a5, .LBB1_14
+        li      t0, 0
+.LBB1_10:
+        mv      a6, t3
+        mv      a7, t1
+.LBB1_11:
+        slli    a6, a6, 3
+        add     a1, a1, a6
+        slli    a2, a2, 3
+        slli    a7, a7, 3
+        add     a3, a3, a7
+        slli    a4, a4, 3
+        subw    a0, a0, t0
+.LBB1_12:                               # =>This Inner Loop Header: Depth=1
+        fld     fa5, 0(a1)
+        fld     fa4, 0(a3)
+        fmadd.d fa0, fa5, fa4, fa0
+        add     a1, a1, a2
+        addiw   a0, a0, -1
+        add     a3, a3, a4
+        bnez    a0, .LBB1_12
+ ---------------unroll_to_rvv----------------
+ .LBB1_11:
+        slli    a6, a6, 3	#
+        add     a1, a1, a6	#
+        slli    a2, a2, 8	#  3-->8 2^(3)=8-->2^(8)=256
+        slli    a7, a7, 3	#  
+        add     a3, a3, a7	#
+        slli    a4, a4, 3	#  3-->5 2^(3)=8-->2^(8)=256
+        subw    a0, a0, t0	#
+.LBB0_12:
+    vle.v   v5, (a1)        # 载入向量寄存器v5
+    vle.v   v4, (a3)        # 载入向量寄存器v4
+    vfmadd.vv fa0, v5, v4, fa0  # fa0 = v4 * v5 + fa0
+    add     a1, a1, a2      # 更新a3地址
+    addiw   a0, a0, -1      # 递减a0
+    add     a3, a3, a4      # 更新a1地址
+    bnez    a0, .LBB0_17    # 如果a0不为零，则跳转回循环开始
+----------------unroll_end----------------        
+        
+.LBB1_13:
+        ret
+.LBB1_14:
+        li      a5, 1
+        li      t0, 0
+        bne     a2, a5, .LBB1_10
+        bne     a4, a5, .LBB1_10
+        srli    t4, t2, 3
+        slli    a6, t4, 1
+        slli    a5, t4, 31
+        sub     a5, a5, a6
+        and     t0, a5, a0
+        mul     a6, t0, a2
+        add     a6, a6, t3
+        mul     a7, t0, a4
+        add     a7, a7, t1
+        srli    t2, t2, 2
+        slli    t3, t3, 3
+        add     t3, t3, a1
+        slli    t1, t1, 3
+        add     t5, a3, t1
+        mul     t1, a2, t4
+        slli    t1, t1, 4
+        mul     t4, a4, t4
+        vsetvli a5, zero, e64, m1, ta, ma
+        vmv.s.x v8, zero
+        slli    t4, t4, 4
+        mv      t6, t0
+.LBB1_17:                               # =>This Inner Loop Header: Depth=1
+        vl2re64.v       v10, (t3)
+        vl2re64.v       v12, (t5)
+        vsetvli a5, zero, e64, m2, ta, ma
+        vfmul.vv        v10, v10, v12
+        vfredosum.vs    v8, v10, v8
+        sub     t6, t6, t2
+        add     t3, t3, t1
+        add     t5, t5, t4
+        bnez    t6, .LBB1_17
+        vfmv.f.s        fa0, v8
+        bne     t0, a0, .LBB1_11
+        j       .LBB1_13
+.LBB1_19:
+        srli    a2, t0, 3
+        slli    a4, a2, 1
+        slli    a2, a2, 31
+        sub     a2, a2, a4
+        and     a6, a2, a0
+        vsetvli a2, zero, e64, m1, ta, ma
+        vmv.s.x v8, zero
+        slli    t0, t0, 1
+        mv      t1, a6
+        mv      a5, a3
+        mv      a4, a1
+.LBB1_20:                               # =>This Inner Loop Header: Depth=1
+        vl2re64.v       v10, (a4)
+        vl2re64.v       v12, (a5)
+        vsetvli a2, zero, e64, m2, ta, ma
+        vfmul.vv        v10, v10, v12
+        vfredosum.vs    v8, v10, v8
+        add     a4, a4, t0
+        sub     t1, t1, a7
+        add     a5, a5, t0
+        bnez    t1, .LBB1_20
+        vfmv.f.s        fa0, v8
+        beq     a6, a0, .LBB1_13
+.LBB1_22:
+        slli    a6, a6, 3
+        add     a2, a3, a6
+        add     a1, a1, a6
+        slli    a0, a0, 3
+        add     a3, a3, a0
+.LBB1_23:                               # =>This Inner Loop Header: Depth=1
+        fld     fa5, 0(a1)
+        fld     fa4, 0(a2)
+        fmadd.d fa0, fa5, fa4, fa0
+        addi    a2, a2, 8
+        addi    a1, a1, 8
+        bne     a2, a3, .LBB1_23
+        j       .LBB1_13
+ ---------------unroll_to_rvv----------------
+ .LBB1_23: 
+    vle.v   v5, (a1)        # 载入向量寄存器v5
+    vle.v   v4, (a2)        # 载入向量寄存器v4
+    vfmadd.vv fa0, v5, v4, fa0  # fa0 = v4 * v5 + fa0
+    add     a1, a1, 256      # 更新a3地址
+    add     a3, a3,256      # 更新a1地址
+    bne     a2, a3, .LBB1_23
+    j       .LBB1_13
+----------------unroll_end----------------        
+        
+dgesl(double*, int, int, int*, double*, int):                      # @dgesl(double*, int, int, int*, double*, int)
+        addi    sp, sp, -64
+        sd      s0, 56(sp)                      # 8-byte Folded Spill
+        sd      s1, 48(sp)                      # 8-byte Folded Spill
+        sd      s2, 40(sp)                      # 8-byte Folded Spill
+        sd      s3, 32(sp)                      # 8-byte Folded Spill
+        sd      s4, 24(sp)                      # 8-byte Folded Spill
+        sd      s5, 16(sp)                      # 8-byte Folded Spill
+        sd      s6, 8(sp)                       # 8-byte Folded Spill
+        sd      s7, 0(sp)                       # 8-byte Folded Spill
+        addiw   a6, a2, -1
+        beqz    a5, .LBB2_25
+        blez    a2, .LBB2_59
+        li      t5, 0
+        li      t1, 0
+        slli    t0, a1, 3
+        csrr    a5, vlenb
+        slli    t6, a5, 1
+        srli    a7, a5, 2
+        fmv.d.x fa5, zero
+        vsetvli a5, zero, e64, m1, ta, ma
+        vmv.s.x v8, zero
+        mv      t2, a0
+        j       .LBB2_4
+.LBB2_3:                                #   in Loop: Header=BB2_4 Depth=1
+        mulw    a5, t1, a1
+        fld     fa3, 0(s2)
+        add     t3, t3, a0
+        slli    a5, a5, 3
+        add     a5, a5, t3
+        fld     fa2, 0(a5)
+        fsub.d  fa4, fa3, fa4
+        fdiv.d  fa4, fa4, fa2
+        fsd     fa4, 0(s2)
+        addi    t5, t5, 1
+        addi    t1, t1, 1
+        add     t2, t2, t0
+        beq     t5, a2, .LBB2_12
+.LBB2_4:                                # =>This Loop Header: Depth=1
+        slli    t3, t5, 3
+        add     s2, a4, t3
+        fmv.d   fa4, fa5
+        beqz    t5, .LBB2_3
+        bgeu    t5, a7, .LBB2_7
+        li      t4, 0
+        fmv.d   fa4, fa5
+        j       .LBB2_10
+.LBB2_7:                                #   in Loop: Header=BB2_4 Depth=1
+        neg     a5, a7
+        and     t4, t5, a5
+        vsetvli a5, zero, e64, m2, ta, ma
+        mv      a5, t4
+        mv      s1, a4
+        mv      s0, t2
+        vmv2r.v v10, v8
+.LBB2_8:                                #   Parent Loop BB2_4 Depth=1
+        vl2re64.v       v12, (s0)
+        vl2re64.v       v14, (s1)
+        vfmul.vv        v12, v12, v14
+        vfredosum.vs    v10, v12, v10
+        add     s0, s0, t6
+        sub     a5, a5, a7
+        add     s1, s1, t6
+        bnez    a5, .LBB2_8
+        vfmv.f.s        fa4, v10
+        beq     t5, t4, .LBB2_3
+.LBB2_10:                               #   in Loop: Header=BB2_4 Depth=1
+        slli    t4, t4, 3
+        add     a5, a4, t4
+        add     s1, t2, t4
+.LBB2_11:                               #   Parent Loop BB2_4 Depth=1
+        fld     fa3, 0(s1)
+        fld     fa2, 0(a5)
+        fmadd.d fa4, fa3, fa2, fa4
+        addi    a5, a5, 8
+        addi    s1, s1, 8
+        bne     a5, s2, .LBB2_11
+        j       .LBB2_3
+.LBB2_12:
+        li      a5, 1
+        beq     a2, a5, .LBB2_59
+        addiw   a5, a2, -2
+        beqz    a5, .LBB2_59
+        addi    s1, a1, 1
+        addi    t1, a0, 8
+        mulw    t5, a5, s1
+        not     t0, a1
+        slli    s0, a2, 3
+        add     s0, s0, a4
+        addi    a1, s0, -8
+        li      t4, 1
+        fmv.d.x fa5, zero
+        j       .LBB2_16
+.LBB2_15:                               #   in Loop: Header=BB2_16 Depth=1
+        addw    t5, t5, t0
+        addi    a1, a1, -8
+        beq     t4, a6, .LBB2_59
+.LBB2_16:                               # =>This Loop Header: Depth=1
+        slli    t2, t5, 3
+        bgeu    t4, a7, .LBB2_18
+        li      t3, 0
+        fmv.d   fa4, fa5
+        j       .LBB2_21
+.LBB2_18:                               #   in Loop: Header=BB2_16 Depth=1
+        add     a5, t1, t2
+        neg     a0, a7
+        and     t3, t4, a0
+        vsetvli a0, zero, e64, m2, ta, ma
+        mv      a0, t3
+        mv      s1, a1
+        vmv2r.v v10, v8
+.LBB2_19:                               #   Parent Loop BB2_16 Depth=1
+        vl2re64.v       v12, (a5)
+        vl2re64.v       v14, (s1)
+        vfmul.vv        v12, v12, v14
+        vfredosum.vs    v10, v12, v10
+        add     a5, a5, t6
+        sub     a0, a0, a7
+        add     s1, s1, t6
+        bnez    a0, .LBB2_19
+        vfmv.f.s        fa4, v10
+        beq     t4, t3, .LBB2_23
+.LBB2_21:                               #   in Loop: Header=BB2_16 Depth=1
+        slli    t3, t3, 3
+        add     a0, a1, t3
+        add     t3, t3, t1
+        add     t2, t2, t3
+.LBB2_22:                               #   Parent Loop BB2_16 Depth=1
+        fld     fa3, 0(t2)
+        fld     fa2, 0(a0)
+        fmadd.d fa4, fa3, fa2, fa4
+        addi    a0, a0, 8
+        addi    t2, t2, 8
+        bne     a0, s0, .LBB2_22
+.LBB2_23:                               #   in Loop: Header=BB2_16 Depth=1
+        addi    t4, t4, 1
+        sub     s1, a2, t4
+        slli    a0, s1, 3
+        add     a0, a0, a4
+        fld     fa3, 0(a0)
+        slli    a5, s1, 2
+        add     a5, a5, a3
+        lw      a5, 0(a5)
+        sext.w  s1, s1
+        fadd.d  fa4, fa3, fa4
+        fsd     fa4, 0(a0)
+        beq     a5, s1, .LBB2_15
+        slli    a5, a5, 3
+        add     a5, a5, a4
+        fld     fa3, 0(a5)
+        fsd     fa4, 0(a5)
+        fsd     fa3, 0(a0)
+        j       .LBB2_15
+.LBB2_25:
+        li      a5, 2
+        blt     a2, a5, .LBB2_43
+        li      t4, 0
+        li      s3, 0
+        addi    a7, a1, 1
+        slli    t0, a2, 3
+        add     t0, t0, a4
+        addi    t1, a0, 8
+        addi    t2, a4, 8
+        csrr    t3, vlenb
+        slli    s7, t3, 1
+        srli    t5, t3, 2
+        addi    t6, a2, -1
+        fmv.d.x fa5, zero
+        mv      s6, t2
+        j       .LBB2_28
+.LBB2_27:                               #   in Loop: Header=BB2_28 Depth=1
+        addi    s6, s6, 8
+        addw    t4, t4, a7
+        addi    t6, t6, -1
+        beq     s3, a6, .LBB2_43
+.LBB2_28:                               # =>This Loop Header: Depth=1
+        mv      s1, s3
+        slli    a5, s3, 2
+        add     a5, a5, a3
+        lwu     s0, 0(a5)
+        sext.w  a5, s0
+        slli    a5, a5, 3
+        add     a5, a5, a4
+        fld     fa4, 0(a5)
+        slli    s5, s3, 3
+        beq     s3, s0, .LBB2_30
+        add     s0, a4, s5
+        fld     fa3, 0(s0)
+        fsd     fa3, 0(a5)
+        fsd     fa4, 0(s0)
+.LBB2_30:                               #   in Loop: Header=BB2_28 Depth=1
+        addi    s3, s1, 1
+        sub     a5, a2, s3
+        blez    a5, .LBB2_27
+        feq.d   a5, fa4, fa5
+        bnez    a5, .LBB2_27
+        li      s0, 32
+        mv      a5, t5
+        bltu    s0, t5, .LBB2_34
+        li      a5, 32
+.LBB2_34:                               #   in Loop: Header=BB2_28 Depth=1
+        not     s4, s1
+        add     s4, s4, a2
+        slli    s2, t4, 3
+        bltu    s4, a5, .LBB2_37
+        add     s5, s5, t2
+        mulw    a5, a7, s1
+        slli    a5, a5, 3
+        sub     s0, a2, s1
+        slli    s0, s0, 3
+        add     s0, s0, a0
+        add     s0, s0, a5
+        bgeu    s5, s0, .LBB2_40
+        add     a5, a5, t1
+        bgeu    a5, t0, .LBB2_40
+.LBB2_37:                               #   in Loop: Header=BB2_28 Depth=1
+        li      s5, 0
+.LBB2_38:                               #   in Loop: Header=BB2_28 Depth=1
+        sub     a5, t6, s5
+        slli    s0, s5, 3
+        add     s1, s0, s2
+        add     s1, s1, t1
+        add     s0, s0, s6
+.LBB2_39:                               #   Parent Loop BB2_28 Depth=1
+        fld     fa3, 0(s0)
+        fld     fa2, 0(s1)
+        fmadd.d fa3, fa4, fa2, fa3
+        fsd     fa3, 0(s0)
+        addi    a5, a5, -1
+        addi    s1, s1, 8
+        addi    s0, s0, 8
+        bnez    a5, .LBB2_39
+        j       .LBB2_27
+.LBB2_40:                               #   in Loop: Header=BB2_28 Depth=1
+        add     a5, t1, s2
+        srli    s0, t3, 2
+        neg     s0, s0
+        and     s5, s4, s0
+        vsetvli s0, zero, e64, m2, ta, ma
+        vfmv.v.f        v8, fa4
+        mv      s1, s5
+        mv      s0, s6
+.LBB2_41:                               #   Parent Loop BB2_28 Depth=1
+        vl2re64.v       v10, (s0)
+        vl2re64.v       v12, (a5)
+        vfmadd.vv       v12, v8, v10
+        vs2r.v  v12, (s0)
+        add     s0, s0, s7
+        sub     s1, s1, t5
+        add     a5, a5, s7
+        bnez    s1, .LBB2_41
+        beq     s4, s5, .LBB2_27
+        j       .LBB2_38
+.LBB2_43:
+        blez    a2, .LBB2_59
+        li      t5, 0
+        li      a6, 0
+        addi    s3, a2, -1
+        slli    a7, a2, 3
+        addi    a7, a7, -8
+        slli    a3, a1, 3
+        neg     t0, a3
+        not     t1, a1
+        slli    t1, t1, 3
+        mul     a3, s3, a1
+        slli    a3, a3, 3
+        add     t4, a0, a3
+        add     t2, a7, t4
+        csrr    t3, vlenb
+        slli    s5, t3, 1
+        srli    t6, t3, 2
+        fmv.d.x fa5, zero
+        mv      s4, t4
+        j       .LBB2_46
+.LBB2_45:                               #   in Loop: Header=BB2_46 Depth=1
+        add     s4, s4, t0
+        addi    s3, s3, -1
+        beq     t5, a2, .LBB2_59
+.LBB2_46:                               # =>This Loop Header: Depth=1
+        mv      s6, t5
+        addi    t5, t5, 1
+        addi    a6, a6, 1
+        sub     a5, a2, t5
+        subw    s0, a2, a6
+        slli    s1, a5, 3
+        add     a3, a4, s1
+        fld     fa4, 0(a3)
+        mulw    s0, s0, a1
+        add     s1, s1, a0
+        slli    s0, s0, 3
+        add     s0, s0, s1
+        fld     fa3, 0(s0)
+        fdiv.d  fa4, fa4, fa3
+        fsd     fa4, 0(a3)
+        blez    a5, .LBB2_45
+        feq.d   a3, fa4, fa5
+        bnez    a3, .LBB2_45
+        li      a3, 32
+        mv      a5, t6
+        bltu    a3, t6, .LBB2_50
+        li      a5, 32
+.LBB2_50:                               #   in Loop: Header=BB2_46 Depth=1
+        not     s2, s6
+        add     s2, s2, a2
+        fneg.d  fa4, fa4
+        bltu    s2, a5, .LBB2_53
+        mul     a3, t1, s6
+        add     a3, a3, t2
+        bgeu    a4, a3, .LBB2_56
+        slli    a3, s6, 3
+        sub     a3, a7, a3
+        add     a3, a3, a4
+        mul     a5, t0, s6
+        add     a5, a5, t4
+        bgeu    a5, a3, .LBB2_56
+.LBB2_53:                               #   in Loop: Header=BB2_46 Depth=1
+        li      a3, 0
+.LBB2_54:                               #   in Loop: Header=BB2_46 Depth=1
+        sub     a5, s3, a3
+        slli    s1, a3, 3
+        add     a3, s4, s1
+        add     s1, s1, a4
+.LBB2_55:                               #   Parent Loop BB2_46 Depth=1
+        fld     fa3, 0(s1)
+        fld     fa2, 0(a3)
+        fmadd.d fa3, fa4, fa2, fa3
+        fsd     fa3, 0(s1)
+        addi    a5, a5, -1
+        addi    a3, a3, 8
+        addi    s1, s1, 8
+        bnez    a5, .LBB2_55
+        j       .LBB2_45
+.LBB2_56:                               #   in Loop: Header=BB2_46 Depth=1
+        srli    a3, t3, 2
+        neg     a3, a3
+        and     a3, s2, a3
+        vsetvli a5, zero, e64, m2, ta, ma
+        vfmv.v.f        v8, fa4
+        mv      a5, a3
+        mv      s1, s4
+        mv      s0, a4
+.LBB2_57:                               #   Parent Loop BB2_46 Depth=1
+        vl2re64.v       v10, (s0)
+        vl2re64.v       v12, (s1)
+        vfmadd.vv       v12, v8, v10
+        vs2r.v  v12, (s0)
+        add     s0, s0, s5
+        sub     a5, a5, t6
+        add     s1, s1, s5
+        bnez    a5, .LBB2_57
+        beq     s2, a3, .LBB2_45
+        j       .LBB2_54
+.LBB2_59:
+        ld      s0, 56(sp)                      # 8-byte Folded Reload
+        ld      s1, 48(sp)                      # 8-byte Folded Reload
+        ld      s2, 40(sp)                      # 8-byte Folded Reload
+        ld      s3, 32(sp)                      # 8-byte Folded Reload
+        ld      s4, 24(sp)                      # 8-byte Folded Reload
+        ld      s5, 16(sp)                      # 8-byte Folded Reload
+        ld      s6, 8(sp)                       # 8-byte Folded Reload
+        ld      s7, 0(sp)                       # 8-byte Folded Reload
+        addi    sp, sp, 64
+        ret
