@@ -11,7 +11,7 @@
 
 extern void matgenv(double *a, int lda, int n ,double b[]);
 extern void dgefaV(double a[],int lda,int n,int ipvt[]);
-extern void dgesl_modify(double a[],int lda,int n,int ipvt[], double b[], int job);
+//extern void dgesl_modify(double a[],int lda,int n,int ipvt[], double b[], int job);
 
 
 int main ()
@@ -23,14 +23,14 @@ int main ()
     double *a = (double*)malloc(n * sizeof(double));
     double *b = (double*)malloc(n * sizeof(double));
 	int *ipvt = (int*)malloc(n* sizeof(int));
-
+	n = 100;
 	matgenv(a,lda,100,b);
 	dgefaV(a,lda,100,ipvt);
-	dgesl_modify(a, lda, n, ipvt, b, 0);
+	//dgesl_modify(a, lda, n, ipvt, b, 0);
 
-	for(i=0;i<n;i ++){
+	for(i=0;i<n*2;i +=1){
 		
-			printf("a[%d] = %lf ",i,*(b+NTIMES*i));
+		printf("a[%d] = %lf ",i,*(a+NTIMES*i));
 		
 		printf("\n");
 	}

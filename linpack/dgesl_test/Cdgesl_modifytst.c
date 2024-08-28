@@ -218,8 +218,8 @@ void dgefa(REAL a[], int lda, int n, int ipvt[])
 	ipvt[n - 1] = n - 1; // not done
 }
 
-void dgesl_modify(REAL a[], int lda, int n, int ipvt[], REAL b[], int job);
-
+extern void dgesl_modify(REAL a[], int lda, int n, int ipvt[], REAL b[], int job);
+extern void print_100dimtst();
 
 
 int main()
@@ -265,9 +265,17 @@ int main()
 		}
 		printf("\n");
 	} */
-	printf("The address of b[] is %p /n", b);
+
 	dgesl_modify(a, lda, n, ipvt, b, 0);
-	//自己写输出罢！
-	print_100dimtst();
+
+	for(int i=0; i<100*64; i++){
+		if(i%100 == 0){
+			printf("===========the %d'th group==========\n", i/100);
+		}
+		printf("b[%d] = %lf \n", i%100, b[i]);
+	}
+
+
+//	print_100dimtst();
 	return 0;
 }

@@ -3,7 +3,22 @@
 .section .text                       
 .global dgefaV
 dgefaV:
-        li              t0, 1
+
+				addi	sp, sp,-40
+				sd		s0, 0(sp)
+				sd		s1, 8(sp)
+				sd		s3, 16(sp)
+				sd		s4, 24(sp)
+				sd		s5, 32(sp)
+				sd		s6, 40(sp)
+				sd		s7, 48(sp)
+				sd		s8, 56(sp)
+				sd		s9, 64(sp)
+				sd		s10, 72(sp)
+				sd		s11, 80(sp)
+				sd		ra, 88(sp)
+				
+				li              t0, 1
         sub             s10, a2, t0                 # s10 = nm1 = n-1
 loopdgefa_init:
         li              s11, 0   
@@ -189,4 +204,17 @@ innerloop_breaker:
         bne             s5, s6, inner_ifswapdgefa       # s6 = n
 loopdgefa_breaker:
         bne             s11, s10, loopdgefa_start       # break if (k + 1 == nm1)
-        ret
+				sd		ra, 88(sp)
+				sd		s11, 80(sp)
+				sd		s10, 72(sp)
+				sd		s9, 64(sp)
+				sd		s8, 56(sp)
+				sd		s7, 48(sp)
+				sd		s6, 40(sp)
+				sd		s5, 32(sp)
+				sd		s4, 24(sp)
+				sd		s3, 16(sp)
+				sd		s1, 8(sp)
+
+      	addi	sp, sp,88
+				ret

@@ -13,6 +13,7 @@ extern void matgenv(double *a, int lda, int n ,double b[]);
 extern void dgefaV(double a[],int lda,int n,int ipvt[]);
 extern void dgesl_modify(double a[],int lda,int n,int ipvt[], double b[], int job);
 
+extern void print_Vlinpack();
 
 int main ()
 {
@@ -23,17 +24,21 @@ int main ()
     double *a = (double*)malloc(n * sizeof(double));
     double *b = (double*)malloc(n * sizeof(double));
 	int *ipvt = (int*)malloc(n* sizeof(int));
-
+	n = 100;
 	matgenv(a,lda,100,b);
 	dgefaV(a,lda,100,ipvt);
+	printf("The address of b: %p\n", b);
+	
 	dgesl_modify(a, lda, n, ipvt, b, 0);
-
-	for(i=0;i<n;i ++){
+	printf("The After address of b: %p\n", b);
+	
+/*	for(i=0;i<n;i ++){
 		
 			printf("a[%d] = %lf ",i,*(b+NTIMES*i));
 		
 		printf("\n");
-	}
+	}*/
+	print_Vlinpack();
 	return 0;
 		
 }

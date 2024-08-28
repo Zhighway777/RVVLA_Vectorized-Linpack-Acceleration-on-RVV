@@ -3,8 +3,10 @@
 #CSRC="matgenvbench_ofmine"
 
 SSRC1="dgesl_modify"
-CSRC1="dgesl_mdy"
-CSRC2="print_value"
+CSRC1="Cdgesl_modifytst"
+#CSRC1="dgesl_mdy"
+CSRC2="print_100dimtst"
+#CSRC2="print_value"
 
 riscv64-unknown-elf-as -march=rv64gcv --mabi=lp64d -o ${SSRC1}.o  ${SSRC1}.s -v
 

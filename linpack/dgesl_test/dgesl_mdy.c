@@ -6,7 +6,7 @@
 #define SIZE_ALL (PARALLEL*LDAmulN)
 
 #include "stdio.h"
-#include "malloc.h"
+
 extern void dgesl_modify(double *a,int lda,int n,int *ipvt,double *b,int job);
 extern void print_value();
 
@@ -61,10 +61,13 @@ for(int i=0; i<N;  i  ++){
 
 int job = 0;
 
+printf("the address of b:%p\n", b);
 dgesl_modify(a, LDA, N, ipvt, b, job);
 //hard bug:the value before dgesl_modify will be changed!!
 
-printf("the result of b[]:\n");
+printf("the address of 2 b:%p\n", b);
+
+//printf("the result of b[]:\n");
 print_value();
 
 

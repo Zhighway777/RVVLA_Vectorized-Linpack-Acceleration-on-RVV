@@ -15,11 +15,12 @@ matgenv:
     li              t5, 1024
     slli            t5, t5, 4   # t5 = 16k
     fcvt.d.w        fa5, t5
-    mv              t6, a2
-    slli            t6, t6, 2		# <<2 for e32
-		mul             a5, t6, t0
+    li              t6, 100
+    slli            t6, t6, 3
+    mul             a5, t6, t0
+    srli            a5, a5, 1   # >>1 for e32 if half of e64
     mul             a7, a2, a2
-    mv              s8, a3
+    li              a6, 0
 
 loop_matrixgen:
     vsetvli         t0, zero, e32, m1, ta, ma
@@ -36,14 +37,15 @@ loop_matrixgen:
     
 loop_bgen:
     vsetvli         t0, zero, e64, m1, ta, ma 
-    vl1re64.v       v24, (s8)
+    vl1re64.v       v24, (a3)
     vfadd.vv        v24, v20, v24
-    vs1r.v          v24, (s8)
-    add             s8, s8, t2
-    bne             s8, a5, loop_breaker
-    mv              s8, a3                           # a5 = t6 * t0 = 800 * t0
+    vs1r.v          v24, (a3)
+    blt             a6, a5, loop_breaker
+    li              a6, 0 
+    add             a3, a3, t2                      # a5 = t6 * t0 = 800 * t0
 
 loop_breaker:
+    add             a6, a6, t2                      # t2 = 8 * t0 
     add             t3, t3, 1
     bne             t3, a7, loop_matrixgen          # a7 = a2 * a2 = 10 ^ 4
     ret

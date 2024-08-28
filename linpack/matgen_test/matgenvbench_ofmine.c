@@ -36,11 +36,12 @@ int main()
 	}
 	n = 100;
 	printf("address of b:%p\n", b);
-	matgenv(a, lda, n, b); 
- 	for(int m=0; m < 6400; m+=64){
-	printf("b[%d] = %lf \n",m/64, b[m]);
+	matgenv(a, lda, n, b);
+ 	printf("address after of b:%p\n", b);
+ 	for(int m=0; m < 100; m++){
+	printf("b[%d] = %lf \n",m, b[m]);
 	}
-	/*   
+	/*  
     init = 1325;
     double *atst = (double*)malloc(n * sizeof(double));
     double *btst = (double*)malloc(n * sizeof(double));
