@@ -1,0 +1,34 @@
+#we set N = 3, PARALLEL = 4
+
+ipvt[3*4] = 
+1, 	2, 	1, 	0
+2, 	2, 	0, 	1
+0, 	0, 	0, 	0
+
+b[3*4] =
+0.1,		0.2,		0.3,	 	0.4
+0.11, 	0.12, 	0.13, 	0.14
+0.21, 	0.22, 	0.23, 	0.24
+
+#assume k=1:
+l = ipvt[1] #l = 2, 2, 0, 1
+					 
+b[l]=b[k]   #we hope store b[k] into b[l]
+
+##we want: 
+			#l=2 store b[1,0] into b[2,0]
+	    #l=2 store b[1,1] into b[2,1]
+	    #l=0 store b[1,2] into b[0,2]
+	    #l=1 store b[1,3] into b[1,3]
+##Index instr exec: vluxei64 v3, (s0), v2
+										vsuxei64 v4, (s0), v2
+
+			#l=2 store b[1,0] into b[2,0]
+	    #l=2 store b[1,1] into b[2,0] 
+	    #l=0 store b[1,2] into b[0,0] 
+	    #l=1 store b[1,3] into b[1,0] 
+
+	    
+##modify idea:
+index[i] in v2[i] = index[i]+8*i
+

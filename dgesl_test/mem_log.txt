@@ -1,0 +1,1159 @@
+====================================================
+a[N*PARA]	HEX value:	 DEC value:	    address:
+a[0*0]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f788
+a[0*1]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f790
+a[0*2]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f798
+a[0*3]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7a0
+a[0*4]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7a8
+a[0*5]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7b0
+a[0*6]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7b8
+a[0*7]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7c0
+a[0*8]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7c8
+a[0*9]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7d0
+a[0*10]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7d8
+a[0*11]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7e0
+a[0*12]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7e8
+a[0*13]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7f0
+a[0*14]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f7f8
+a[0*15]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f800
+a[0*16]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f808
+a[0*17]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f810
+a[0*18]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f818
+a[0*19]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f820
+a[0*20]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f828
+a[0*21]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f830
+a[0*22]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f838
+a[0*23]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f840
+a[0*24]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f848
+a[0*25]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f850
+a[0*26]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f858
+a[0*27]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f860
+a[0*28]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f868
+a[0*29]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f870
+a[0*30]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f878
+a[0*31]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f880
+a[0*32]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f888
+a[0*33]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f890
+a[0*34]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f898
+a[0*35]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8a0
+a[0*36]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8a8
+a[0*37]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8b0
+a[0*38]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8b8
+a[0*39]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8c0
+a[0*40]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8c8
+a[0*41]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8d0
+a[0*42]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8d8
+a[0*43]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8e0
+a[0*44]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8e8
+a[0*45]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8f0
+a[0*46]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f8f8
+a[0*47]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f900
+a[0*48]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f908
+a[0*49]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f910
+a[0*50]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f918
+a[0*51]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f920
+a[0*52]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f928
+a[0*53]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f930
+a[0*54]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f938
+a[0*55]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f940
+a[0*56]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f948
+a[0*57]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f950
+a[0*58]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f958
+a[0*59]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f960
+a[0*60]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f968
+a[0*61]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f970
+a[0*62]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f978
+a[0*63]	HEX value:bff46bbfd71b0468	DEC value:-1.2763	address:0x1f980
+a[1*0]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f988
+a[1*1]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f990
+a[1*2]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f998
+a[1*3]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9a0
+a[1*4]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9a8
+a[1*5]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9b0
+a[1*6]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9b8
+a[1*7]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9c0
+a[1*8]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9c8
+a[1*9]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9d0
+a[1*10]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9d8
+a[1*11]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9e0
+a[1*12]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9e8
+a[1*13]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9f0
+a[1*14]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1f9f8
+a[1*15]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa00
+a[1*16]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa08
+a[1*17]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa10
+a[1*18]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa18
+a[1*19]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa20
+a[1*20]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa28
+a[1*21]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa30
+a[1*22]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa38
+a[1*23]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa40
+a[1*24]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa48
+a[1*25]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa50
+a[1*26]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa58
+a[1*27]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa60
+a[1*28]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa68
+a[1*29]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa70
+a[1*30]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa78
+a[1*31]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa80
+a[1*32]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa88
+a[1*33]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa90
+a[1*34]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fa98
+a[1*35]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1faa0
+a[1*36]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1faa8
+a[1*37]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fab0
+a[1*38]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fab8
+a[1*39]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fac0
+a[1*40]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fac8
+a[1*41]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fad0
+a[1*42]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fad8
+a[1*43]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fae0
+a[1*44]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fae8
+a[1*45]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1faf0
+a[1*46]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1faf8
+a[1*47]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb00
+a[1*48]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb08
+a[1*49]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb10
+a[1*50]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb18
+a[1*51]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb20
+a[1*52]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb28
+a[1*53]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb30
+a[1*54]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb38
+a[1*55]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb40
+a[1*56]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb48
+a[1*57]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb50
+a[1*58]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb58
+a[1*59]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb60
+a[1*60]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb68
+a[1*61]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb70
+a[1*62]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb78
+a[1*63]	HEX value:bfd6e703afb7e910	DEC value:-0.3579	address:0x1fb80
+a[2*0]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fb88
+a[2*1]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fb90
+a[2*2]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fb98
+a[2*3]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fba0
+a[2*4]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fba8
+a[2*5]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbb0
+a[2*6]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbb8
+a[2*7]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbc0
+a[2*8]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbc8
+a[2*9]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbd0
+a[2*10]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbd8
+a[2*11]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbe0
+a[2*12]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbe8
+a[2*13]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbf0
+a[2*14]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fbf8
+a[2*15]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc00
+a[2*16]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc08
+a[2*17]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc10
+a[2*18]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc18
+a[2*19]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc20
+a[2*20]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc28
+a[2*21]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc30
+a[2*22]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc38
+a[2*23]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc40
+a[2*24]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc48
+a[2*25]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc50
+a[2*26]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc58
+a[2*27]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc60
+a[2*28]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc68
+a[2*29]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc70
+a[2*30]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc78
+a[2*31]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc80
+a[2*32]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc88
+a[2*33]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc90
+a[2*34]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fc98
+a[2*35]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fca0
+a[2*36]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fca8
+a[2*37]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcb0
+a[2*38]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcb8
+a[2*39]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcc0
+a[2*40]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcc8
+a[2*41]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcd0
+a[2*42]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcd8
+a[2*43]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fce0
+a[2*44]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fce8
+a[2*45]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcf0
+a[2*46]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fcf8
+a[2*47]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd00
+a[2*48]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd08
+a[2*49]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd10
+a[2*50]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd18
+a[2*51]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd20
+a[2*52]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd28
+a[2*53]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd30
+a[2*54]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd38
+a[2*55]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd40
+a[2*56]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd48
+a[2*57]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd50
+a[2*58]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd58
+a[2*59]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd60
+a[2*60]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd68
+a[2*61]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd70
+a[2*62]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd78
+a[2*63]	HEX value:3fe2540ee06d9381	DEC value:0.5728	address:0x1fd80
+a[3*0]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fd88
+a[3*1]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fd90
+a[3*2]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fd98
+a[3*3]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fda0
+a[3*4]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fda8
+a[3*5]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdb0
+a[3*6]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdb8
+a[3*7]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdc0
+a[3*8]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdc8
+a[3*9]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdd0
+a[3*10]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdd8
+a[3*11]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fde0
+a[3*12]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fde8
+a[3*13]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdf0
+a[3*14]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fdf8
+a[3*15]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe00
+a[3*16]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe08
+a[3*17]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe10
+a[3*18]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe18
+a[3*19]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe20
+a[3*20]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe28
+a[3*21]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe30
+a[3*22]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe38
+a[3*23]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe40
+a[3*24]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe48
+a[3*25]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe50
+a[3*26]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe58
+a[3*27]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe60
+a[3*28]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe68
+a[3*29]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe70
+a[3*30]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe78
+a[3*31]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe80
+a[3*32]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe88
+a[3*33]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe90
+a[3*34]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fe98
+a[3*35]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fea0
+a[3*36]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fea8
+a[3*37]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1feb0
+a[3*38]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1feb8
+a[3*39]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fec0
+a[3*40]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fec8
+a[3*41]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fed0
+a[3*42]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fed8
+a[3*43]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fee0
+a[3*44]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fee8
+a[3*45]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fef0
+a[3*46]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1fef8
+a[3*47]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff00
+a[3*48]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff08
+a[3*49]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff10
+a[3*50]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff18
+a[3*51]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff20
+a[3*52]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff28
+a[3*53]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff30
+a[3*54]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff38
+a[3*55]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff40
+a[3*56]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff48
+a[3*57]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff50
+a[3*58]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff58
+a[3*59]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff60
+a[3*60]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff68
+a[3*61]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff70
+a[3*62]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff78
+a[3*63]	HEX value:3fdb9d0203e63e8e	DEC value:0.4315	address:0x1ff80
+a[4*0]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ff88
+a[4*1]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ff90
+a[4*2]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ff98
+a[4*3]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffa0
+a[4*4]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffa8
+a[4*5]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffb0
+a[4*6]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffb8
+a[4*7]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffc0
+a[4*8]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffc8
+a[4*9]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffd0
+a[4*10]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffd8
+a[4*11]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffe0
+a[4*12]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1ffe8
+a[4*13]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1fff0
+a[4*14]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x1fff8
+a[4*15]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20000
+a[4*16]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20008
+a[4*17]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20010
+a[4*18]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20018
+a[4*19]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20020
+a[4*20]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20028
+a[4*21]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20030
+a[4*22]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20038
+a[4*23]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20040
+a[4*24]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20048
+a[4*25]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20050
+a[4*26]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20058
+a[4*27]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20060
+a[4*28]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20068
+a[4*29]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20070
+a[4*30]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20078
+a[4*31]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20080
+a[4*32]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20088
+a[4*33]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20090
+a[4*34]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20098
+a[4*35]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200a0
+a[4*36]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200a8
+a[4*37]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200b0
+a[4*38]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200b8
+a[4*39]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200c0
+a[4*40]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200c8
+a[4*41]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200d0
+a[4*42]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200d8
+a[4*43]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200e0
+a[4*44]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200e8
+a[4*45]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200f0
+a[4*46]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x200f8
+a[4*47]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20100
+a[4*48]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20108
+a[4*49]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20110
+a[4*50]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20118
+a[4*51]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20120
+a[4*52]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20128
+a[4*53]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20130
+a[4*54]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20138
+a[4*55]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20140
+a[4*56]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20148
+a[4*57]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20150
+a[4*58]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20158
+a[4*59]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20160
+a[4*60]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20168
+a[4*61]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20170
+a[4*62]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20178
+a[4*63]	HEX value:3fe2c2eba27ae9ab	DEC value:0.5863	address:0x20180
+a[5*0]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20188
+a[5*1]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20190
+a[5*2]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20198
+a[5*3]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201a0
+a[5*4]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201a8
+a[5*5]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201b0
+a[5*6]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201b8
+a[5*7]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201c0
+a[5*8]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201c8
+a[5*9]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201d0
+a[5*10]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201d8
+a[5*11]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201e0
+a[5*12]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201e8
+a[5*13]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201f0
+a[5*14]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x201f8
+a[5*15]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20200
+a[5*16]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20208
+a[5*17]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20210
+a[5*18]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20218
+a[5*19]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20220
+a[5*20]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20228
+a[5*21]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20230
+a[5*22]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20238
+a[5*23]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20240
+a[5*24]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20248
+a[5*25]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20250
+a[5*26]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20258
+a[5*27]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20260
+a[5*28]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20268
+a[5*29]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20270
+a[5*30]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20278
+a[5*31]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20280
+a[5*32]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20288
+a[5*33]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20290
+a[5*34]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20298
+a[5*35]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202a0
+a[5*36]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202a8
+a[5*37]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202b0
+a[5*38]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202b8
+a[5*39]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202c0
+a[5*40]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202c8
+a[5*41]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202d0
+a[5*42]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202d8
+a[5*43]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202e0
+a[5*44]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202e8
+a[5*45]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202f0
+a[5*46]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x202f8
+a[5*47]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20300
+a[5*48]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20308
+a[5*49]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20310
+a[5*50]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20318
+a[5*51]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20320
+a[5*52]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20328
+a[5*53]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20330
+a[5*54]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20338
+a[5*55]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20340
+a[5*56]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20348
+a[5*57]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20350
+a[5*58]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20358
+a[5*59]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20360
+a[5*60]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20368
+a[5*61]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20370
+a[5*62]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20378
+a[5*63]	HEX value:bfd06994185058de	DEC value:-0.2564	address:0x20380
+a[6*0]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20388
+a[6*1]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20390
+a[6*2]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20398
+a[6*3]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203a0
+a[6*4]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203a8
+a[6*5]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203b0
+a[6*6]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203b8
+a[6*7]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203c0
+a[6*8]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203c8
+a[6*9]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203d0
+a[6*10]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203d8
+a[6*11]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203e0
+a[6*12]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203e8
+a[6*13]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203f0
+a[6*14]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x203f8
+a[6*15]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20400
+a[6*16]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20408
+a[6*17]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20410
+a[6*18]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20418
+a[6*19]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20420
+a[6*20]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20428
+a[6*21]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20430
+a[6*22]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20438
+a[6*23]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20440
+a[6*24]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20448
+a[6*25]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20450
+a[6*26]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20458
+a[6*27]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20460
+a[6*28]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20468
+a[6*29]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20470
+a[6*30]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20478
+a[6*31]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20480
+a[6*32]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20488
+a[6*33]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20490
+a[6*34]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20498
+a[6*35]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204a0
+a[6*36]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204a8
+a[6*37]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204b0
+a[6*38]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204b8
+a[6*39]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204c0
+a[6*40]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204c8
+a[6*41]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204d0
+a[6*42]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204d8
+a[6*43]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204e0
+a[6*44]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204e8
+a[6*45]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204f0
+a[6*46]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x204f8
+a[6*47]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20500
+a[6*48]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20508
+a[6*49]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20510
+a[6*50]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20518
+a[6*51]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20520
+a[6*52]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20528
+a[6*53]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20530
+a[6*54]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20538
+a[6*55]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20540
+a[6*56]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20548
+a[6*57]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20550
+a[6*58]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20558
+a[6*59]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20560
+a[6*60]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20568
+a[6*61]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20570
+a[6*62]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20578
+a[6*63]	HEX value:bfb61c044284dfce	DEC value:-0.0864	address:0x20580
+a[7*0]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20588
+a[7*1]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20590
+a[7*2]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20598
+a[7*3]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205a0
+a[7*4]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205a8
+a[7*5]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205b0
+a[7*6]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205b8
+a[7*7]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205c0
+a[7*8]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205c8
+a[7*9]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205d0
+a[7*10]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205d8
+a[7*11]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205e0
+a[7*12]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205e8
+a[7*13]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205f0
+a[7*14]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x205f8
+a[7*15]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20600
+a[7*16]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20608
+a[7*17]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20610
+a[7*18]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20618
+a[7*19]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20620
+a[7*20]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20628
+a[7*21]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20630
+a[7*22]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20638
+a[7*23]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20640
+a[7*24]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20648
+a[7*25]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20650
+a[7*26]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20658
+a[7*27]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20660
+a[7*28]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20668
+a[7*29]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20670
+a[7*30]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20678
+a[7*31]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20680
+a[7*32]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20688
+a[7*33]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20690
+a[7*34]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20698
+a[7*35]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206a0
+a[7*36]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206a8
+a[7*37]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206b0
+a[7*38]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206b8
+a[7*39]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206c0
+a[7*40]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206c8
+a[7*41]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206d0
+a[7*42]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206d8
+a[7*43]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206e0
+a[7*44]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206e8
+a[7*45]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206f0
+a[7*46]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x206f8
+a[7*47]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20700
+a[7*48]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20708
+a[7*49]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20710
+a[7*50]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20718
+a[7*51]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20720
+a[7*52]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20728
+a[7*53]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20730
+a[7*54]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20738
+a[7*55]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20740
+a[7*56]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20748
+a[7*57]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20750
+a[7*58]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20758
+a[7*59]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20760
+a[7*60]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20768
+a[7*61]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20770
+a[7*62]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20778
+a[7*63]	HEX value:bffc5e5d18090b41	DEC value:-1.7730	address:0x20780
+a[8*0]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20788
+a[8*1]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20790
+a[8*2]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20798
+a[8*3]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207a0
+a[8*4]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207a8
+a[8*5]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207b0
+a[8*6]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207b8
+a[8*7]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207c0
+a[8*8]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207c8
+a[8*9]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207d0
+a[8*10]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207d8
+a[8*11]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207e0
+a[8*12]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207e8
+a[8*13]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207f0
+a[8*14]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x207f8
+a[8*15]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20800
+a[8*16]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20808
+a[8*17]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20810
+a[8*18]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20818
+a[8*19]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20820
+a[8*20]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20828
+a[8*21]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20830
+a[8*22]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20838
+a[8*23]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20840
+a[8*24]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20848
+a[8*25]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20850
+a[8*26]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20858
+a[8*27]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20860
+a[8*28]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20868
+a[8*29]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20870
+a[8*30]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20878
+a[8*31]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20880
+a[8*32]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20888
+a[8*33]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20890
+a[8*34]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20898
+a[8*35]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208a0
+a[8*36]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208a8
+a[8*37]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208b0
+a[8*38]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208b8
+a[8*39]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208c0
+a[8*40]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208c8
+a[8*41]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208d0
+a[8*42]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208d8
+a[8*43]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208e0
+a[8*44]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208e8
+a[8*45]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208f0
+a[8*46]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x208f8
+a[8*47]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20900
+a[8*48]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20908
+a[8*49]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20910
+a[8*50]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20918
+a[8*51]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20920
+a[8*52]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20928
+a[8*53]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20930
+a[8*54]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20938
+a[8*55]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20940
+a[8*56]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20948
+a[8*57]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20950
+a[8*58]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20958
+a[8*59]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20960
+a[8*60]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20968
+a[8*61]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20970
+a[8*62]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20978
+a[8*63]	HEX value:bff677c5692b3cc5	DEC value:-1.4042	address:0x20980
+====================================================
+ipvt[N*PARA]	HEX value:	 DEC value:	    address:
+ipvt[0*0]	HEX value:0	DEC value:0	address:0x3ffffd8a20
+ipvt[0*1]	HEX value:0	DEC value:0	address:0x3ffffd8a24
+ipvt[0*2]	HEX value:0	DEC value:0	address:0x3ffffd8a28
+ipvt[0*3]	HEX value:0	DEC value:0	address:0x3ffffd8a2c
+ipvt[0*4]	HEX value:0	DEC value:0	address:0x3ffffd8a30
+ipvt[0*5]	HEX value:0	DEC value:0	address:0x3ffffd8a34
+ipvt[0*6]	HEX value:0	DEC value:0	address:0x3ffffd8a38
+ipvt[0*7]	HEX value:0	DEC value:0	address:0x3ffffd8a3c
+ipvt[0*8]	HEX value:0	DEC value:0	address:0x3ffffd8a40
+ipvt[0*9]	HEX value:0	DEC value:0	address:0x3ffffd8a44
+ipvt[0*10]	HEX value:0	DEC value:0	address:0x3ffffd8a48
+ipvt[0*11]	HEX value:0	DEC value:0	address:0x3ffffd8a4c
+ipvt[0*12]	HEX value:0	DEC value:0	address:0x3ffffd8a50
+ipvt[0*13]	HEX value:0	DEC value:0	address:0x3ffffd8a54
+ipvt[0*14]	HEX value:0	DEC value:0	address:0x3ffffd8a58
+ipvt[0*15]	HEX value:0	DEC value:0	address:0x3ffffd8a5c
+ipvt[0*16]	HEX value:0	DEC value:0	address:0x3ffffd8a60
+ipvt[0*17]	HEX value:0	DEC value:0	address:0x3ffffd8a64
+ipvt[0*18]	HEX value:0	DEC value:0	address:0x3ffffd8a68
+ipvt[0*19]	HEX value:0	DEC value:0	address:0x3ffffd8a6c
+ipvt[0*20]	HEX value:0	DEC value:0	address:0x3ffffd8a70
+ipvt[0*21]	HEX value:0	DEC value:0	address:0x3ffffd8a74
+ipvt[0*22]	HEX value:0	DEC value:0	address:0x3ffffd8a78
+ipvt[0*23]	HEX value:0	DEC value:0	address:0x3ffffd8a7c
+ipvt[0*24]	HEX value:0	DEC value:0	address:0x3ffffd8a80
+ipvt[0*25]	HEX value:0	DEC value:0	address:0x3ffffd8a84
+ipvt[0*26]	HEX value:0	DEC value:0	address:0x3ffffd8a88
+ipvt[0*27]	HEX value:0	DEC value:0	address:0x3ffffd8a8c
+ipvt[0*28]	HEX value:0	DEC value:0	address:0x3ffffd8a90
+ipvt[0*29]	HEX value:0	DEC value:0	address:0x3ffffd8a94
+ipvt[0*30]	HEX value:0	DEC value:0	address:0x3ffffd8a98
+ipvt[0*31]	HEX value:0	DEC value:0	address:0x3ffffd8a9c
+ipvt[0*32]	HEX value:0	DEC value:0	address:0x3ffffd8aa0
+ipvt[0*33]	HEX value:0	DEC value:0	address:0x3ffffd8aa4
+ipvt[0*34]	HEX value:0	DEC value:0	address:0x3ffffd8aa8
+ipvt[0*35]	HEX value:0	DEC value:0	address:0x3ffffd8aac
+ipvt[0*36]	HEX value:0	DEC value:0	address:0x3ffffd8ab0
+ipvt[0*37]	HEX value:0	DEC value:0	address:0x3ffffd8ab4
+ipvt[0*38]	HEX value:0	DEC value:0	address:0x3ffffd8ab8
+ipvt[0*39]	HEX value:0	DEC value:0	address:0x3ffffd8abc
+ipvt[0*40]	HEX value:0	DEC value:0	address:0x3ffffd8ac0
+ipvt[0*41]	HEX value:0	DEC value:0	address:0x3ffffd8ac4
+ipvt[0*42]	HEX value:0	DEC value:0	address:0x3ffffd8ac8
+ipvt[0*43]	HEX value:0	DEC value:0	address:0x3ffffd8acc
+ipvt[0*44]	HEX value:0	DEC value:0	address:0x3ffffd8ad0
+ipvt[0*45]	HEX value:0	DEC value:0	address:0x3ffffd8ad4
+ipvt[0*46]	HEX value:0	DEC value:0	address:0x3ffffd8ad8
+ipvt[0*47]	HEX value:0	DEC value:0	address:0x3ffffd8adc
+ipvt[0*48]	HEX value:0	DEC value:0	address:0x3ffffd8ae0
+ipvt[0*49]	HEX value:0	DEC value:0	address:0x3ffffd8ae4
+ipvt[0*50]	HEX value:0	DEC value:0	address:0x3ffffd8ae8
+ipvt[0*51]	HEX value:0	DEC value:0	address:0x3ffffd8aec
+ipvt[0*52]	HEX value:0	DEC value:0	address:0x3ffffd8af0
+ipvt[0*53]	HEX value:0	DEC value:0	address:0x3ffffd8af4
+ipvt[0*54]	HEX value:0	DEC value:0	address:0x3ffffd8af8
+ipvt[0*55]	HEX value:0	DEC value:0	address:0x3ffffd8afc
+ipvt[0*56]	HEX value:0	DEC value:0	address:0x3ffffd8b00
+ipvt[0*57]	HEX value:0	DEC value:0	address:0x3ffffd8b04
+ipvt[0*58]	HEX value:0	DEC value:0	address:0x3ffffd8b08
+ipvt[0*59]	HEX value:0	DEC value:0	address:0x3ffffd8b0c
+ipvt[0*60]	HEX value:0	DEC value:0	address:0x3ffffd8b10
+ipvt[0*61]	HEX value:0	DEC value:0	address:0x3ffffd8b14
+ipvt[0*62]	HEX value:0	DEC value:0	address:0x3ffffd8b18
+ipvt[0*63]	HEX value:0	DEC value:0	address:0x3ffffd8b1c
+ipvt[1*0]	HEX value:2	DEC value:2	address:0x3ffffd8b20
+ipvt[1*1]	HEX value:2	DEC value:2	address:0x3ffffd8b24
+ipvt[1*2]	HEX value:2	DEC value:2	address:0x3ffffd8b28
+ipvt[1*3]	HEX value:2	DEC value:2	address:0x3ffffd8b2c
+ipvt[1*4]	HEX value:2	DEC value:2	address:0x3ffffd8b30
+ipvt[1*5]	HEX value:2	DEC value:2	address:0x3ffffd8b34
+ipvt[1*6]	HEX value:2	DEC value:2	address:0x3ffffd8b38
+ipvt[1*7]	HEX value:2	DEC value:2	address:0x3ffffd8b3c
+ipvt[1*8]	HEX value:2	DEC value:2	address:0x3ffffd8b40
+ipvt[1*9]	HEX value:2	DEC value:2	address:0x3ffffd8b44
+ipvt[1*10]	HEX value:2	DEC value:2	address:0x3ffffd8b48
+ipvt[1*11]	HEX value:2	DEC value:2	address:0x3ffffd8b4c
+ipvt[1*12]	HEX value:2	DEC value:2	address:0x3ffffd8b50
+ipvt[1*13]	HEX value:2	DEC value:2	address:0x3ffffd8b54
+ipvt[1*14]	HEX value:2	DEC value:2	address:0x3ffffd8b58
+ipvt[1*15]	HEX value:2	DEC value:2	address:0x3ffffd8b5c
+ipvt[1*16]	HEX value:2	DEC value:2	address:0x3ffffd8b60
+ipvt[1*17]	HEX value:2	DEC value:2	address:0x3ffffd8b64
+ipvt[1*18]	HEX value:2	DEC value:2	address:0x3ffffd8b68
+ipvt[1*19]	HEX value:2	DEC value:2	address:0x3ffffd8b6c
+ipvt[1*20]	HEX value:2	DEC value:2	address:0x3ffffd8b70
+ipvt[1*21]	HEX value:2	DEC value:2	address:0x3ffffd8b74
+ipvt[1*22]	HEX value:2	DEC value:2	address:0x3ffffd8b78
+ipvt[1*23]	HEX value:2	DEC value:2	address:0x3ffffd8b7c
+ipvt[1*24]	HEX value:2	DEC value:2	address:0x3ffffd8b80
+ipvt[1*25]	HEX value:2	DEC value:2	address:0x3ffffd8b84
+ipvt[1*26]	HEX value:2	DEC value:2	address:0x3ffffd8b88
+ipvt[1*27]	HEX value:2	DEC value:2	address:0x3ffffd8b8c
+ipvt[1*28]	HEX value:2	DEC value:2	address:0x3ffffd8b90
+ipvt[1*29]	HEX value:2	DEC value:2	address:0x3ffffd8b94
+ipvt[1*30]	HEX value:2	DEC value:2	address:0x3ffffd8b98
+ipvt[1*31]	HEX value:2	DEC value:2	address:0x3ffffd8b9c
+ipvt[1*32]	HEX value:2	DEC value:2	address:0x3ffffd8ba0
+ipvt[1*33]	HEX value:2	DEC value:2	address:0x3ffffd8ba4
+ipvt[1*34]	HEX value:2	DEC value:2	address:0x3ffffd8ba8
+ipvt[1*35]	HEX value:2	DEC value:2	address:0x3ffffd8bac
+ipvt[1*36]	HEX value:2	DEC value:2	address:0x3ffffd8bb0
+ipvt[1*37]	HEX value:2	DEC value:2	address:0x3ffffd8bb4
+ipvt[1*38]	HEX value:2	DEC value:2	address:0x3ffffd8bb8
+ipvt[1*39]	HEX value:2	DEC value:2	address:0x3ffffd8bbc
+ipvt[1*40]	HEX value:2	DEC value:2	address:0x3ffffd8bc0
+ipvt[1*41]	HEX value:2	DEC value:2	address:0x3ffffd8bc4
+ipvt[1*42]	HEX value:2	DEC value:2	address:0x3ffffd8bc8
+ipvt[1*43]	HEX value:2	DEC value:2	address:0x3ffffd8bcc
+ipvt[1*44]	HEX value:2	DEC value:2	address:0x3ffffd8bd0
+ipvt[1*45]	HEX value:2	DEC value:2	address:0x3ffffd8bd4
+ipvt[1*46]	HEX value:2	DEC value:2	address:0x3ffffd8bd8
+ipvt[1*47]	HEX value:2	DEC value:2	address:0x3ffffd8bdc
+ipvt[1*48]	HEX value:2	DEC value:2	address:0x3ffffd8be0
+ipvt[1*49]	HEX value:2	DEC value:2	address:0x3ffffd8be4
+ipvt[1*50]	HEX value:2	DEC value:2	address:0x3ffffd8be8
+ipvt[1*51]	HEX value:2	DEC value:2	address:0x3ffffd8bec
+ipvt[1*52]	HEX value:2	DEC value:2	address:0x3ffffd8bf0
+ipvt[1*53]	HEX value:2	DEC value:2	address:0x3ffffd8bf4
+ipvt[1*54]	HEX value:2	DEC value:2	address:0x3ffffd8bf8
+ipvt[1*55]	HEX value:2	DEC value:2	address:0x3ffffd8bfc
+ipvt[1*56]	HEX value:2	DEC value:2	address:0x3ffffd8c00
+ipvt[1*57]	HEX value:2	DEC value:2	address:0x3ffffd8c04
+ipvt[1*58]	HEX value:2	DEC value:2	address:0x3ffffd8c08
+ipvt[1*59]	HEX value:2	DEC value:2	address:0x3ffffd8c0c
+ipvt[1*60]	HEX value:2	DEC value:2	address:0x3ffffd8c10
+ipvt[1*61]	HEX value:2	DEC value:2	address:0x3ffffd8c14
+ipvt[1*62]	HEX value:2	DEC value:2	address:0x3ffffd8c18
+ipvt[1*63]	HEX value:2	DEC value:2	address:0x3ffffd8c1c
+ipvt[2*0]	HEX value:2	DEC value:2	address:0x3ffffd8c20
+ipvt[2*1]	HEX value:2	DEC value:2	address:0x3ffffd8c24
+ipvt[2*2]	HEX value:2	DEC value:2	address:0x3ffffd8c28
+ipvt[2*3]	HEX value:2	DEC value:2	address:0x3ffffd8c2c
+ipvt[2*4]	HEX value:2	DEC value:2	address:0x3ffffd8c30
+ipvt[2*5]	HEX value:2	DEC value:2	address:0x3ffffd8c34
+ipvt[2*6]	HEX value:2	DEC value:2	address:0x3ffffd8c38
+ipvt[2*7]	HEX value:2	DEC value:2	address:0x3ffffd8c3c
+ipvt[2*8]	HEX value:2	DEC value:2	address:0x3ffffd8c40
+ipvt[2*9]	HEX value:2	DEC value:2	address:0x3ffffd8c44
+ipvt[2*10]	HEX value:2	DEC value:2	address:0x3ffffd8c48
+ipvt[2*11]	HEX value:2	DEC value:2	address:0x3ffffd8c4c
+ipvt[2*12]	HEX value:2	DEC value:2	address:0x3ffffd8c50
+ipvt[2*13]	HEX value:2	DEC value:2	address:0x3ffffd8c54
+ipvt[2*14]	HEX value:2	DEC value:2	address:0x3ffffd8c58
+ipvt[2*15]	HEX value:2	DEC value:2	address:0x3ffffd8c5c
+ipvt[2*16]	HEX value:2	DEC value:2	address:0x3ffffd8c60
+ipvt[2*17]	HEX value:2	DEC value:2	address:0x3ffffd8c64
+ipvt[2*18]	HEX value:2	DEC value:2	address:0x3ffffd8c68
+ipvt[2*19]	HEX value:2	DEC value:2	address:0x3ffffd8c6c
+ipvt[2*20]	HEX value:2	DEC value:2	address:0x3ffffd8c70
+ipvt[2*21]	HEX value:2	DEC value:2	address:0x3ffffd8c74
+ipvt[2*22]	HEX value:2	DEC value:2	address:0x3ffffd8c78
+ipvt[2*23]	HEX value:2	DEC value:2	address:0x3ffffd8c7c
+ipvt[2*24]	HEX value:2	DEC value:2	address:0x3ffffd8c80
+ipvt[2*25]	HEX value:2	DEC value:2	address:0x3ffffd8c84
+ipvt[2*26]	HEX value:2	DEC value:2	address:0x3ffffd8c88
+ipvt[2*27]	HEX value:2	DEC value:2	address:0x3ffffd8c8c
+ipvt[2*28]	HEX value:2	DEC value:2	address:0x3ffffd8c90
+ipvt[2*29]	HEX value:2	DEC value:2	address:0x3ffffd8c94
+ipvt[2*30]	HEX value:2	DEC value:2	address:0x3ffffd8c98
+ipvt[2*31]	HEX value:2	DEC value:2	address:0x3ffffd8c9c
+ipvt[2*32]	HEX value:2	DEC value:2	address:0x3ffffd8ca0
+ipvt[2*33]	HEX value:2	DEC value:2	address:0x3ffffd8ca4
+ipvt[2*34]	HEX value:2	DEC value:2	address:0x3ffffd8ca8
+ipvt[2*35]	HEX value:2	DEC value:2	address:0x3ffffd8cac
+ipvt[2*36]	HEX value:2	DEC value:2	address:0x3ffffd8cb0
+ipvt[2*37]	HEX value:2	DEC value:2	address:0x3ffffd8cb4
+ipvt[2*38]	HEX value:2	DEC value:2	address:0x3ffffd8cb8
+ipvt[2*39]	HEX value:2	DEC value:2	address:0x3ffffd8cbc
+ipvt[2*40]	HEX value:2	DEC value:2	address:0x3ffffd8cc0
+ipvt[2*41]	HEX value:2	DEC value:2	address:0x3ffffd8cc4
+ipvt[2*42]	HEX value:2	DEC value:2	address:0x3ffffd8cc8
+ipvt[2*43]	HEX value:2	DEC value:2	address:0x3ffffd8ccc
+ipvt[2*44]	HEX value:2	DEC value:2	address:0x3ffffd8cd0
+ipvt[2*45]	HEX value:2	DEC value:2	address:0x3ffffd8cd4
+ipvt[2*46]	HEX value:2	DEC value:2	address:0x3ffffd8cd8
+ipvt[2*47]	HEX value:2	DEC value:2	address:0x3ffffd8cdc
+ipvt[2*48]	HEX value:2	DEC value:2	address:0x3ffffd8ce0
+ipvt[2*49]	HEX value:2	DEC value:2	address:0x3ffffd8ce4
+ipvt[2*50]	HEX value:2	DEC value:2	address:0x3ffffd8ce8
+ipvt[2*51]	HEX value:2	DEC value:2	address:0x3ffffd8cec
+ipvt[2*52]	HEX value:2	DEC value:2	address:0x3ffffd8cf0
+ipvt[2*53]	HEX value:2	DEC value:2	address:0x3ffffd8cf4
+ipvt[2*54]	HEX value:2	DEC value:2	address:0x3ffffd8cf8
+ipvt[2*55]	HEX value:2	DEC value:2	address:0x3ffffd8cfc
+ipvt[2*56]	HEX value:2	DEC value:2	address:0x3ffffd8d00
+ipvt[2*57]	HEX value:2	DEC value:2	address:0x3ffffd8d04
+ipvt[2*58]	HEX value:2	DEC value:2	address:0x3ffffd8d08
+ipvt[2*59]	HEX value:2	DEC value:2	address:0x3ffffd8d0c
+ipvt[2*60]	HEX value:2	DEC value:2	address:0x3ffffd8d10
+ipvt[2*61]	HEX value:2	DEC value:2	address:0x3ffffd8d14
+ipvt[2*62]	HEX value:2	DEC value:2	address:0x3ffffd8d18
+ipvt[2*63]	HEX value:2	DEC value:2	address:0x3ffffd8d1c
+====================================================
+b[N*PARA]	HEX value:	 DEC value:	    address:
+b[0*0]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8420
+b[0*1]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8428
+b[0*2]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8430
+b[0*3]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8438
+b[0*4]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8440
+b[0*5]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8448
+b[0*6]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8450
+b[0*7]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8458
+b[0*8]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8460
+b[0*9]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8468
+b[0*10]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8470
+b[0*11]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8478
+b[0*12]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8480
+b[0*13]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8488
+b[0*14]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8490
+b[0*15]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8498
+b[0*16]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84a0
+b[0*17]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84a8
+b[0*18]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84b0
+b[0*19]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84b8
+b[0*20]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84c0
+b[0*21]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84c8
+b[0*22]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84d0
+b[0*23]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84d8
+b[0*24]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84e0
+b[0*25]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84e8
+b[0*26]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84f0
+b[0*27]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd84f8
+b[0*28]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8500
+b[0*29]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8508
+b[0*30]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8510
+b[0*31]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8518
+b[0*32]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8520
+b[0*33]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8528
+b[0*34]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8530
+b[0*35]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8538
+b[0*36]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8540
+b[0*37]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8548
+b[0*38]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8550
+b[0*39]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8558
+b[0*40]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8560
+b[0*41]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8568
+b[0*42]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8570
+b[0*43]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8578
+b[0*44]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8580
+b[0*45]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8588
+b[0*46]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8590
+b[0*47]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8598
+b[0*48]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85a0
+b[0*49]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85a8
+b[0*50]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85b0
+b[0*51]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85b8
+b[0*52]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85c0
+b[0*53]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85c8
+b[0*54]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85d0
+b[0*55]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85d8
+b[0*56]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85e0
+b[0*57]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85e8
+b[0*58]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85f0
+b[0*59]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd85f8
+b[0*60]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8600
+b[0*61]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8608
+b[0*62]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8610
+b[0*63]	HEX value:bfedcc7f34938583	DEC value:-0.9312	address:0x3ffffd8618
+b[1*0]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8620
+b[1*1]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8628
+b[1*2]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8630
+b[1*3]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8638
+b[1*4]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8640
+b[1*5]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8648
+b[1*6]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8650
+b[1*7]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8658
+b[1*8]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8660
+b[1*9]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8668
+b[1*10]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8670
+b[1*11]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8678
+b[1*12]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8680
+b[1*13]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8688
+b[1*14]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8690
+b[1*15]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8698
+b[1*16]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86a0
+b[1*17]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86a8
+b[1*18]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86b0
+b[1*19]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86b8
+b[1*20]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86c0
+b[1*21]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86c8
+b[1*22]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86d0
+b[1*23]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86d8
+b[1*24]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86e0
+b[1*25]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86e8
+b[1*26]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86f0
+b[1*27]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd86f8
+b[1*28]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8700
+b[1*29]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8708
+b[1*30]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8710
+b[1*31]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8718
+b[1*32]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8720
+b[1*33]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8728
+b[1*34]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8730
+b[1*35]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8738
+b[1*36]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8740
+b[1*37]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8748
+b[1*38]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8750
+b[1*39]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8758
+b[1*40]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8760
+b[1*41]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8768
+b[1*42]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8770
+b[1*43]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8778
+b[1*44]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8780
+b[1*45]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8788
+b[1*46]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8790
+b[1*47]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8798
+b[1*48]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87a0
+b[1*49]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87a8
+b[1*50]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87b0
+b[1*51]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87b8
+b[1*52]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87c0
+b[1*53]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87c8
+b[1*54]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87d0
+b[1*55]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87d8
+b[1*56]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87e0
+b[1*57]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87e8
+b[1*58]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87f0
+b[1*59]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd87f8
+b[1*60]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8800
+b[1*61]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8808
+b[1*62]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8810
+b[1*63]	HEX value:c000559ff4fd6d7f	DEC value:-2.0418	address:0x3ffffd8818
+b[2*0]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8820
+b[2*1]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8828
+b[2*2]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8830
+b[2*3]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8838
+b[2*4]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8840
+b[2*5]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8848
+b[2*6]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8850
+b[2*7]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8858
+b[2*8]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8860
+b[2*9]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8868
+b[2*10]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8870
+b[2*11]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8878
+b[2*12]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8880
+b[2*13]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8888
+b[2*14]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8890
+b[2*15]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8898
+b[2*16]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88a0
+b[2*17]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88a8
+b[2*18]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88b0
+b[2*19]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88b8
+b[2*20]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88c0
+b[2*21]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88c8
+b[2*22]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88d0
+b[2*23]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88d8
+b[2*24]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88e0
+b[2*25]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88e8
+b[2*26]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88f0
+b[2*27]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd88f8
+b[2*28]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8900
+b[2*29]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8908
+b[2*30]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8910
+b[2*31]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8918
+b[2*32]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8920
+b[2*33]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8928
+b[2*34]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8930
+b[2*35]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8938
+b[2*36]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8940
+b[2*37]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8948
+b[2*38]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8950
+b[2*39]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8958
+b[2*40]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8960
+b[2*41]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8968
+b[2*42]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8970
+b[2*43]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8978
+b[2*44]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8980
+b[2*45]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8988
+b[2*46]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8990
+b[2*47]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8998
+b[2*48]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89a0
+b[2*49]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89a8
+b[2*50]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89b0
+b[2*51]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89b8
+b[2*52]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89c0
+b[2*53]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89c8
+b[2*54]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89d0
+b[2*55]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89d8
+b[2*56]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89e0
+b[2*57]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89e8
+b[2*58]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89f0
+b[2*59]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd89f8
+b[2*60]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8a00
+b[2*61]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8a08
+b[2*62]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8a10
+b[2*63]	HEX value:bfe4e87f455a7d24	DEC value:-0.6534	address:0x3ffffd8a18
+the result of b[]:
+b[0]	DEC value:1.0000	 
+b[1]	DEC value:1.0000	 
+b[2]	DEC value:1.0000	 
+b[3]	DEC value:1.0000	 
+b[4]	DEC value:1.0000	 
+b[5]	DEC value:1.0000	 
+b[6]	DEC value:1.0000	 
+b[7]	DEC value:1.0000	 
+b[8]	DEC value:1.0000	 
+b[9]	DEC value:1.0000	 
+b[10]	DEC value:1.0000	 
+b[11]	DEC value:1.0000	 
+b[12]	DEC value:1.0000	 
+b[13]	DEC value:1.0000	 
+b[14]	DEC value:1.0000	 
+b[15]	DEC value:1.0000	 
+b[16]	DEC value:1.0000	 
+b[17]	DEC value:1.0000	 
+b[18]	DEC value:1.0000	 
+b[19]	DEC value:1.0000	 
+b[20]	DEC value:1.0000	 
+b[21]	DEC value:1.0000	 
+b[22]	DEC value:1.0000	 
+b[23]	DEC value:1.0000	 
+b[24]	DEC value:1.0000	 
+b[25]	DEC value:1.0000	 
+b[26]	DEC value:1.0000	 
+b[27]	DEC value:1.0000	 
+b[28]	DEC value:1.0000	 
+b[29]	DEC value:1.0000	 
+b[30]	DEC value:1.0000	 
+b[31]	DEC value:1.0000	 
+b[32]	DEC value:1.0000	 
+b[33]	DEC value:1.0000	 
+b[34]	DEC value:1.0000	 
+b[35]	DEC value:1.0000	 
+b[36]	DEC value:1.0000	 
+b[37]	DEC value:1.0000	 
+b[38]	DEC value:1.0000	 
+b[39]	DEC value:1.0000	 
+b[40]	DEC value:1.0000	 
+b[41]	DEC value:1.0000	 
+b[42]	DEC value:1.0000	 
+b[43]	DEC value:1.0000	 
+b[44]	DEC value:1.0000	 
+b[45]	DEC value:1.0000	 
+b[46]	DEC value:1.0000	 
+b[47]	DEC value:1.0000	 
+b[48]	DEC value:1.0000	 
+b[49]	DEC value:1.0000	 
+b[50]	DEC value:1.0000	 
+b[51]	DEC value:1.0000	 
+b[52]	DEC value:1.0000	 
+b[53]	DEC value:1.0000	 
+b[54]	DEC value:1.0000	 
+b[55]	DEC value:1.0000	 
+b[56]	DEC value:1.0000	 
+b[57]	DEC value:1.0000	 
+b[58]	DEC value:1.0000	 
+b[59]	DEC value:1.0000	 
+b[60]	DEC value:1.0000	 
+b[61]	DEC value:1.0000	 
+b[62]	DEC value:1.0000	 
+b[63]	DEC value:1.0000	 
+b[64]	DEC value:1.0000	 
+b[65]	DEC value:1.0000	 
+b[66]	DEC value:1.0000	 
+b[67]	DEC value:1.0000	 
+b[68]	DEC value:1.0000	 
+b[69]	DEC value:1.0000	 
+b[70]	DEC value:1.0000	 
+b[71]	DEC value:1.0000	 
+b[72]	DEC value:1.0000	 
+b[73]	DEC value:1.0000	 
+b[74]	DEC value:1.0000	 
+b[75]	DEC value:1.0000	 
+b[76]	DEC value:1.0000	 
+b[77]	DEC value:1.0000	 
+b[78]	DEC value:1.0000	 
+b[79]	DEC value:1.0000	 
+b[80]	DEC value:1.0000	 
+b[81]	DEC value:1.0000	 
+b[82]	DEC value:1.0000	 
+b[83]	DEC value:1.0000	 
+b[84]	DEC value:1.0000	 
+b[85]	DEC value:1.0000	 
+b[86]	DEC value:1.0000	 
+b[87]	DEC value:1.0000	 
+b[88]	DEC value:1.0000	 
+b[89]	DEC value:1.0000	 
+b[90]	DEC value:1.0000	 
+b[91]	DEC value:1.0000	 
+b[92]	DEC value:1.0000	 
+b[93]	DEC value:1.0000	 
+b[94]	DEC value:1.0000	 
+b[95]	DEC value:1.0000	 
+b[96]	DEC value:1.0000	 
+b[97]	DEC value:1.0000	 
+b[98]	DEC value:1.0000	 
+b[99]	DEC value:1.0000	 
+b[100]	DEC value:1.0000	 
+b[101]	DEC value:1.0000	 
+b[102]	DEC value:1.0000	 
+b[103]	DEC value:1.0000	 
+b[104]	DEC value:1.0000	 
+b[105]	DEC value:1.0000	 
+b[106]	DEC value:1.0000	 
+b[107]	DEC value:1.0000	 
+b[108]	DEC value:1.0000	 
+b[109]	DEC value:1.0000	 
+b[110]	DEC value:1.0000	 
+b[111]	DEC value:1.0000	 
+b[112]	DEC value:1.0000	 
+b[113]	DEC value:1.0000	 
+b[114]	DEC value:1.0000	 
+b[115]	DEC value:1.0000	 
+b[116]	DEC value:1.0000	 
+b[117]	DEC value:1.0000	 
+b[118]	DEC value:1.0000	 
+b[119]	DEC value:1.0000	 
+b[120]	DEC value:1.0000	 
+b[121]	DEC value:1.0000	 
+b[122]	DEC value:1.0000	 
+b[123]	DEC value:1.0000	 
+b[124]	DEC value:1.0000	 
+b[125]	DEC value:1.0000	 
+b[126]	DEC value:1.0000	 
+b[127]	DEC value:1.0000	 
+b[128]	DEC value:1.0000	 
+b[129]	DEC value:1.0000	 
+b[130]	DEC value:1.0000	 
+b[131]	DEC value:1.0000	 
+b[132]	DEC value:1.0000	 
+b[133]	DEC value:1.0000	 
+b[134]	DEC value:1.0000	 
+b[135]	DEC value:1.0000	 
+b[136]	DEC value:1.0000	 
+b[137]	DEC value:1.0000	 
+b[138]	DEC value:1.0000	 
+b[139]	DEC value:1.0000	 
+b[140]	DEC value:1.0000	 
+b[141]	DEC value:1.0000	 
+b[142]	DEC value:1.0000	 
+b[143]	DEC value:1.0000	 
+b[144]	DEC value:1.0000	 
+b[145]	DEC value:1.0000	 
+b[146]	DEC value:1.0000	 
+b[147]	DEC value:1.0000	 
+b[148]	DEC value:1.0000	 
+b[149]	DEC value:1.0000	 
+b[150]	DEC value:1.0000	 
+b[151]	DEC value:1.0000	 
+b[152]	DEC value:1.0000	 
+b[153]	DEC value:1.0000	 
+b[154]	DEC value:1.0000	 
+b[155]	DEC value:1.0000	 
+b[156]	DEC value:1.0000	 
+b[157]	DEC value:1.0000	 
+b[158]	DEC value:1.0000	 
+b[159]	DEC value:1.0000	 
+b[160]	DEC value:1.0000	 
+b[161]	DEC value:1.0000	 
+b[162]	DEC value:1.0000	 
+b[163]	DEC value:1.0000	 
+b[164]	DEC value:1.0000	 
+b[165]	DEC value:1.0000	 
+b[166]	DEC value:1.0000	 
+b[167]	DEC value:1.0000	 
+b[168]	DEC value:1.0000	 
+b[169]	DEC value:1.0000	 
+b[170]	DEC value:1.0000	 
+b[171]	DEC value:1.0000	 
+b[172]	DEC value:1.0000	 
+b[173]	DEC value:1.0000	 
+b[174]	DEC value:1.0000	 
+b[175]	DEC value:1.0000	 
+b[176]	DEC value:1.0000	 
+b[177]	DEC value:1.0000	 
+b[178]	DEC value:1.0000	 
+b[179]	DEC value:1.0000	 
+b[180]	DEC value:1.0000	 
+b[181]	DEC value:1.0000	 
+b[182]	DEC value:1.0000	 
+b[183]	DEC value:1.0000	 
+b[184]	DEC value:1.0000	 
+b[185]	DEC value:1.0000	 
+b[186]	DEC value:1.0000	 
+b[187]	DEC value:1.0000	 
+b[188]	DEC value:1.0000	 
+b[189]	DEC value:1.0000	 
+b[190]	DEC value:1.0000	 
+b[191]	DEC value:1.0000	 
