@@ -31,17 +31,19 @@ int main()
 
   	double *a = (double*)malloc(n * sizeof(double));
     double *b = (double*)malloc(n * sizeof(double));
-    for (i = 0; i < 25600; i++) {
+     for (i = 0; i < 25600; i++) {
           b[i] = 0.0;
 	}
 	n = 100;
 	printf("address of b:%p\n", b);
 	matgenv(a, lda, n, b);
  	printf("address after of b:%p\n", b);
- 	for(int m=0; m < 100; m++){
-	printf("b[%d] = %lf \n",m, b[m]);
+	
+	for(int i =0; i < 100; i++){
+	printf("b[%d] = %lf \n",i, b[i*64] );
 	}
-	/*  
+	
+/* 
     init = 1325;
     double *atst = (double*)malloc(n * sizeof(double));
     double *btst = (double*)malloc(n * sizeof(double));
@@ -51,7 +53,7 @@ int main()
 	for (j = 0; j < n; j++) {
 		for (i = 0; i < n; i++) {
 			init = 3125*init % 65536;
-			double temp = ((double)init - 32768.0)/16384.0;
+					double temp = ((double)init - 32768.0)/16384.0;
 			for(int p = 0; p < 64; p ++){
 				atst[cnt_column*j+cnt_roll*i+p] = temp;
 			}
@@ -78,6 +80,6 @@ int main()
 			}
 		}
 	}
-*/
+ */
     return 0;
 }
