@@ -26,6 +26,7 @@ int main ()
 	int Ntimes = 16;
 	clock_t start, finish;
 	double duration = 0.0;
+	unsigned int wrong_times = 0;
 	//for(int itimes =  0; itimes < Ntimes; itimes ++){
 		start = clock();
 		
@@ -46,12 +47,18 @@ int main ()
 			if(i%100 == 0){
 				printf("===========the %d'th group==========\n", i/100);
 			}
+			if(b[i] - 1.000000  == 0.0){
+				wrong_times ++;			
+			}
 			printf("b[%d] = %lf \n", i%100, b[i]);
 		}	
 	//}
-	
-	
-	printf("The Execute time for VLinpack is %f seconds \n", duration);
+	if (wrong_times == 0){
+		printf("Wrong times is ZERO.\nThe Results are all correct!\n");
+		printf("The Execute time for VLinpack is %f seconds \n", duration);
+	}
+	else 
+	printf("The Wrong number is %d in araray b[] \n", wrong_times);
 	return 0;
 		
 }
