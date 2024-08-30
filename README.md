@@ -1,6 +1,6 @@
 # Vectorized-Linpack-Acceleration-on-RISC-V-Vector Extension
 Our aim is to leverage RISC-V Vector Extension (RVV) to vectorize the Linpack Benchmark, achieving optimal performance on RISC-V SIMD architecture. By exploiting the vector processing capabilities of RVV, we aim to enhance computational efficiency and accelerate floating-point operations within high-performance computing environments.
-For Linpack Benchmark, compared to the one that uses clang for auto-vectorization, our optimization has almost **30X** the performance improvement.
+For Linpack Benchmark, compared to the one that uses clang for auto-vectorization, our optimization has almost **30X** the performance improvement, and **3756X** compared orginal Benchmark.
 
 ## Introduction
 We optimized the C source code of Linpack by applying post-compilation optimizations and rewriting key functions (dgesl, matgen, dgefa, etc.) using multithreading to handle multiple independent data streams simultaneously. The optimized Linpack benchmark, found in the Vlinpack folder as Vlinpack.c, calls dgefaV.s, matgenv.s, and dgesl_modify.s. The expected output after running the Vlinpack program is for vector b to contain all ones. Currently, automatic result verification is not supported, so manual checking of the output is required.
@@ -19,6 +19,6 @@ For comparison, we simulated the original Linpack which is auto-vectorized by LL
 Also, we simulated the original Linpack using Spike with the same hardware parameters, and Ntimes=64. The recorded execution time for this test was 23.44576 seconds.
 
 
-These results demonstrate that with VLEN set to 4096, the performance of Vlinpack improved by 28.7 times compared to the llvm clang compiler auto vector Linpack. And improved by 3765.6 times compared to the orginal Linpack. Currently, the maximum VLEN supported by Spike is 4096, which limits further acceleration.
+These results demonstrate that with VLEN set to 4096, the performance of Vlinpack improved by **28.7X** compared to the llvm clang compiler auto vector Linpack. And improved by **3765.6X** compared to the orginal Linpack. Currently, the maximum VLEN supported by Spike is 4096, which limits further acceleration.
 ## Furture Work
 In future updates, we plan to include vectorized versions of neural network (NN) and transformer benchmarks. Additionally, we aim to perform comprehensive simulations at the RTL level using hardware emulators to obtain more detailed performance metric
