@@ -42,7 +42,7 @@ In this performance analysis, we provide detailed calculations of the Linpack Be
 
    Where N is the matrix dimension. In our trials, with N = 100 and 64 iterations, the total computational workload is:
 
-   $OPS_{total} = 4 * ((2/3) * (100^3) + 2 * (100^2)) = 43.9 MFLOPs$
+   $OPS_{total} = 64 * ((2/3) * (100^3) + 2 * (100^2)) = 43.9 MFLOPs$
 
 2. **Performance Calculation (GFLOPS)**:  
    With our post-compilation optimization version, the execution time on the Spike simulator is recorded as 0.006 seconds. The performance, measured in gigaflops per second (GFLOPS), is calculated as:
