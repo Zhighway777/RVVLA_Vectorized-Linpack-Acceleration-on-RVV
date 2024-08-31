@@ -47,7 +47,7 @@ In this performance analysis, we provide detailed calculations of the Linpack Be
 2. **Performance Calculation (GFLOPS)**:  
    With our post-compilation optimization version, the execution time on the Spike simulator is recorded as 0.006 seconds. The performance, measured in gigaflops per second (GFLOPS), is calculated as:
 
-   $Performance = (43.9 * 10^6 FLOPs) / (0.006 s) ≈ 7.32 GFLOPS$
+   $Performance = (43.9 * 10^6 FLOPs) / (0.006 sec) ≈ 7.32 GFLOPS$
 
 ### Interpretation of Performance Analysis
 
