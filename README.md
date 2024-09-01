@@ -28,8 +28,8 @@ These results demonstrate that with VLEN set to 4096, the performance of Vlinpac
 | Optimization Level        | Simulator Parameters            | Execution Time (s) | Speedup | Data Size                                  |
 |---------------------------|---------------------------------|--------------------|---------|---------------------------------------------|
 | Non-Vectorized Extension  | VLEN = 4096 bit, ELEN = 64 bit  | 23.446             | 1X      | Matrix dimension N = 100, iteration count = 64 |
-| LLVM Clang Auto-Vectorization | -                          | 0.179              | 131X    | Same as above                              |
-| Post-Compilation Optimization | -                          | 0.006              | 3907X   | Same as above                              |
+| LLVM Clang Auto-Vectorization | Same as above                          | 0.179              | 131X    | Same as above                              |
+| Post-Compilation Optimization | Same as above                          | 0.006              | 3907X   | Same as above                              |
 
 ### Optimized Performance Analysis
 
